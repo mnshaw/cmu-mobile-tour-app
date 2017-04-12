@@ -1,0 +1,33 @@
+*{
+font-size: 100%;
+}
+.row {
+  margin-bottom: 15px;
+}
+.row > div {
+
+}
+
+.jumbotron{
+	padding-left: 30px;
+}
+.navbar-brand {
+	padding-left: 20px;
+}
+
+/*if colors aren't clear*/
+/*.navbar .navbar-toggle {
+  border-color: blue;
+}
+.navbar .navbar-toggle .icon-bar {
+  background-color: blue;
+}*/
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+ul.pagination {
+	margin-left: 40%;
+}
