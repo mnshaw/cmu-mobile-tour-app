@@ -34,8 +34,31 @@ ul.pagination {
 	margin-left: 40%;
 }
 
+
+/* For mainmenu.html */
 #general-tour{
 	background-color: blue;
-	height:100px;
+	height:200px;
 }
 
+#specific-tours {
+	background-color: red;
+	height: 100px;
+}
+#dining-tour {
+	background-color: black;
+	height: 100px;	
+}
+#housing-tour {
+	background-color: white;
+	height: 100px;
+}
+#athletics-tour {
+	background-color: black;
+	height: 100px;
+}
+#libraries-tour {
+	background-color: white;
+	height: 100px;
+}
+/* End of mainmenu.html */
