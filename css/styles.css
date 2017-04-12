@@ -1,5 +1,7 @@
 *{
 font-size: 100%;
+font-family: 'Open Sans', sans-serif;
+
 }
 .row {
   margin-bottom: 15px;
@@ -31,3 +33,9 @@ img {
 ul.pagination {
 	margin-left: 40%;
 }
+
+#general-tour{
+	background-color: blue;
+	height:100px;
+}
+
