@@ -24,14 +24,20 @@
   background-color: blue;
 }*/
 
-img {
+/*img {
 	width: 100%;
 	max-width: 100%;
 }
-
+*/
 ul.pagination {
 	margin-left: 40%;
 }
+
+body {
+	background-color: #a6a6a6
+}
+
+/*#4CD964 for the light 	green & #389648 for dark green*/
 
 
 /* For mainmenu.html */
@@ -39,27 +45,44 @@ ul.pagination {
 	background-color: blue;
 	height:200px;
 }
-
-#specific-tours {
-	background-color: red;
-	height: 100px;
+#additional-tours {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: white;
+}
+#additional-tours>p{
+	margin-left: 5%;
+	width: 90%;
+	font-size: 100%;
+}
+#dining-tour,#housing-tour,#athletics-tour,#landmarks-tour {
+	padding: 20px;
+	text-align: center;
+	font-size: 180%;
+	font-weight: 300;
+	color: white;
+	height: 150px;
+	border-radius: 10px;
+	width:42.5%;
+	margin-right: 2.5%;
 }
 #dining-tour {
-	background-color: black;
-	height: 100px;	
+	background-color: #F2A900;
+	margin-left: 6%;
 }
 #housing-tour {
-	background-color: white;
-	height: 100px;
+	background-color: #A6192E;
 }
 #athletics-tour {
-	background-color: black;
-	height: 100px;
+	margin-left: 6%;
+	background-color: #00843D;
 }
-#libraries-tour {
-	background-color: white;
-	height: 100px;
+#landmarks-tour {
+	background-color: #002D72;
 }
+
+
+/* HAMBURGER BAR */
 
 /* adjust body when menu is open */
 body.slide-active {
