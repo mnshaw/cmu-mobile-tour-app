@@ -36,15 +36,45 @@ ul.pagination {
 body {
 	background-color: #a6a6a6
 }
-
-/*#4CD964 for the light 	green & #389648 for dark green*/
+html, body {margin:0;padding:0;height:100%;}
 
 
 /* For mainmenu.html */
 #general-tour{
-	background-color: blue;
-	height:200px;
+	height: 55%;
+	background-image: url("../images/generalgradient.jpg");
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	color:white;
+	font-size: 200%;
+	padding-top: 60%;
+	padding-left: 2.5%;
 }
+#general-tour>p, .btn-group {
+	padding-left: 5%
+}
+.left-btn {
+	background-color: #389648;
+}
+.right-btn{
+	background-color: #4CD964; 
+}
+.btn-round-lg{
+	border-radius: 22.5px;
+}
+.btn-round{
+	border-radius: 17px;
+}
+.btn-round-sm{
+	border-radius: 15px;
+}
+.btn-round-xs{
+	border-radius: 11px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 #additional-tours {
 	padding-top: 5%;
 	padding-bottom: 5%;
