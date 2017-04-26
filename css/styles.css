@@ -253,4 +253,24 @@ body.slide-active {
 #slidemenu{
 	padding-top: 10px;
 }
+
+#welcome{
+	background-image: url("../images/landingBackground.png");
+	background-repeat: no-repeat;
+	height: 100%;
+	background-position: 50% 50%;
+	background-size: 100%;
+}
+
+#start{
+	text-align: center;
+	padding-top: 140%;
+}
+
+#startButton{
+	font-size: 25px;
+	padding: 12px 60px;
+	border-radius: 32px;
+}
+
 /* End of mainmenu.html */
