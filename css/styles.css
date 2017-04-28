@@ -16,7 +16,7 @@ ul.pagination {
 }
 
 body {
-	background-color: #a6a6a6
+	background-color: #a6a6a6;
 }
 html, body {margin:0;padding:0;height:100%;}
 
@@ -119,13 +119,17 @@ a:hover {
 
 
 #tourinfo-body {
-	background-color: white;
+	background-color: #a6a6a6;
 }
 
 #tourinfo {
+	padding-top: 3%;
+	padding-bottom: 3%;
+	background-color: white;
+}
+#inner-tourinfo {
 	margin-left: 5%;
 }
-
 #tourinfo a {
 	color: blue;
 }
@@ -140,7 +144,7 @@ a:hover {
 	text-align: center;
 }
 #spaceholder {
-	margin-top: 20%;
+	margin-top: 18%;
 }
 #back {
 	margin-left: 2%;
