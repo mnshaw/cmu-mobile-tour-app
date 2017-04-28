@@ -28,6 +28,10 @@ a:active {
 	color:white;
 	text-decoration: none;
 }
+a:hover {
+	color:white;
+	text-decoration: none;
+}
 
 /* For mainmenu.html */
 #general-tour{
@@ -117,6 +121,36 @@ a:active {
 #tourinfo-body {
 	background-color: white;
 }
+
+#tourinfo {
+	margin-left: 5%;
+}
+
+#tourinfo a {
+	color: blue;
+}
+
+#tourinfo p {
+	font-weight: 600;
+	font-size: 120%;
+}
+.tourinfo-icon {
+	margin-left: -1%;
+	padding-left: 0%;
+	text-align: center;
+}
+#spaceholder {
+	margin-top: 20%;
+}
+#back {
+	margin-left: 2%;
+	font-size: 130%;
+}
+#back a {
+	color: blue;
+	font-weight: 600;
+}
+
 
 /* HAMBURGER BAR */
 
