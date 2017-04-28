@@ -258,7 +258,7 @@ body.slide-active {
 	padding-top: 10px;
 }
 
-#welcome{
+#landingScreen{
 	background-image: url("../images/landingBackground.png");
 	background-repeat: no-repeat;
 	height: 100%;
