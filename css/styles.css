@@ -1,18 +1,18 @@
 * {
-	font-size: 100%;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 .jumbotron{
-	padding-left: 30px;
+    padding-left: 30px;
 }
 .navbar-brand {
-	padding-left: 20px;
+    padding-left: 20px;
 }
 
 ul.pagination {
-	margin-left: 40%;
+    margin-left: 40%;
 }
 
 body {
@@ -21,100 +21,100 @@ body {
 html, body {margin:0;padding:0;height:100%;}
 
 a {
-	color:white;
+    color:white;
 }
 
 a:active {
-	color:white;
-	text-decoration: none;
+    color:white;
+    text-decoration: none;
 }
 a:hover {
-	color:white;
-	text-decoration: none;
+    color:white;
+    text-decoration: none;
 }
 
 /* For mainmenu.html */
 #general-tour{
-	height: 60%;
-	background-image: url("../images/generalgradient.jpg");
-	background-size: auto 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	color:white;
-	font-size: 36px;
-	padding-top: 60%;
-	padding-left: 2.5%;
-	margin-bottom: 5%;
+    height: 60%;
+    background-image: url("../images/generalgradient.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:white;
+    font-size: 36px;
+    padding-top: 60%;
+    padding-left: 2.5%;
+    margin-bottom: 5%;
 }
 #general-tour>p, .btn-group {
-	padding-left: 5%
+    padding-left: 5%
 }
 #general-tour>p{
-	margin-bottom: -15px;
-	font-weight: 400;
+    margin-bottom: -15px;
+    font-weight: 400;
 }
 .btn {
-	font-size: 18px;
-	font-weight: 300;
+    font-size: 18px;
+    font-weight: 300;
 }
 .left-btn {
-	background-color: #389648;
+    background-color: #389648;
 }
 .right-btn{
-	background-color: #4CD964; 
+    background-color: #4CD964; 
 }
 .btn-round-lg{
-	border-radius: 22.5px;
+    border-radius: 22.5px;
 }
 .btn-round{
-	border-radius: 24px;
+    border-radius: 24px;
 }
 .btn-round-sm{
-	border-radius: 15px;
+    border-radius: 15px;
 }
 .btn-round-xs{
-	border-radius: 11px;
-	padding-left: 10px;
-	padding-right: 10px;
+    border-radius: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #additional-tours {
-	padding-top: 5%;
-	padding-bottom: 5%;
-	background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: white;
 }
 #additional-tours>p{
-	margin-left: 5%;
-	width: 90%;
-	font-size: 14px;
+    margin-left: 5%;
+    width: 90%;
+    font-size: 14px;
 }
 #dining-tour,#housing-tour,#athletics-tour,#landmarks-tour {
-	padding: 20px;
-	text-align: center;
-	font-size: 180%;
-	font-weight: 300;
-	color: white;
-	height: 150px;
-	border-radius: 10px;
-	width:42.5%;
-	margin-right: 2.5%;
+    padding: 20px;
+    text-align: center;
+    font-size: 180%;
+    font-weight: 300;
+    color: white;
+    height: 150px;
+    border-radius: 10px;
+    width:42.5%;
+    margin-right: 2.5%;
 }
 #additional-tours1 {
-	margin-bottom: 3%;
+    margin-bottom: 3%;
 }
 #dining-tour {
-	background-color: #F4AA00;
-	margin-left: 6%;
+    background-color: #F4AA00;
+    margin-left: 6%;
 }
 #housing-tour {
-	background-color: #C60B2B;
+    background-color: #C60B2B;
 }
 #athletics-tour {
-	margin-left: 6%;
-	background-color: #00853A;
+    margin-left: 6%;
+    background-color: #00853A;
 }
 #landmarks-tour {
-	background-color: #002B74;
+    background-color: #002B74;
 }
 
 
@@ -158,22 +158,24 @@ a:hover {
 	font-weight: 600;
 	font-size: 170%;
 	margin-bottom: 0%;
+
 }
 .tourinfo-icon {
-	margin-left: -1%;
-	padding-left: 0%;
-	text-align: center;
+    margin-left: -1%;
+    padding-left: 0%;
+    text-align: center;
 }
 #spaceholder {
-	margin-top: 18%;
+    margin-top: 18%;
 }
 #back {
-	margin-left: 2%;
-	font-size: 130%;
+    margin-left: 2%;
+    font-size: 130%;
 }
 #back a {
 	color: black;
 	font-weight: 600;
+
 }
 
 /* hunt.html */
@@ -289,109 +291,109 @@ body.slide-active {
     position: relative
 }
 @media (max-width:767px) { 
-	#slide-nav .container {
-	    margin: 0!important;
-	    padding: 0!important;
+    #slide-nav .container {
+        margin: 0!important;
+        padding: 0!important;
       height:100%;
-	}
-	#slide-nav .navbar-header {
-	    margin: 0 auto;
-	    padding: 0 15px;
-	}
-	#slide-nav .navbar.slide-active {
-	    position: absolute;
-	    width: 80%;
-	    top: -1px;
-	    z-index: 1000;
-	}
-	#slide-nav #slidemenu {
-	    background: #f7f7f7;
-	    left: -100%;
-	    width: 80%;
-	    min-width: 0;
-	    position: absolute;
-	    padding-left: 0;
-	    z-index: 2;
-	    top: -8px;
-	    margin: 0;
-	}
-	#slide-nav #slidemenu .navbar-nav {
-	    min-width: 0;
-	    width: 100%;
-	    margin: 0;
-	}
-	#slide-nav #slidemenu .navbar-nav .dropdown-menu li a {
-	    min-width: 0;
-	    width: 80%;
-	    white-space: normal;
-	}
-	#slide-nav {
-	    border-top: 0;
-	}
-	#slide-nav.navbar-inverse #slidemenu {
-	    background: #333
-	}
-	/* this is behind the navigation but the navigation is not inside it so that the navigation is accessible and scrolls*/
-	#navbar-height-col {
-	    position: fixed;
-	    top: 0;
-	    height: 100%;
+    }
+    #slide-nav .navbar-header {
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    #slide-nav .navbar.slide-active {
+        position: absolute;
+        width: 80%;
+        top: -1px;
+        z-index: 1000;
+    }
+    #slide-nav #slidemenu {
+        background: #f7f7f7;
+        left: -100%;
+        width: 80%;
+        min-width: 0;
+        position: absolute;
+        padding-left: 0;
+        z-index: 2;
+        top: -8px;
+        margin: 0;
+    }
+    #slide-nav #slidemenu .navbar-nav {
+        min-width: 0;
+        width: 100%;
+        margin: 0;
+    }
+    #slide-nav #slidemenu .navbar-nav .dropdown-menu li a {
+        min-width: 0;
+        width: 80%;
+        white-space: normal;
+    }
+    #slide-nav {
+        border-top: 0;
+    }
+    #slide-nav.navbar-inverse #slidemenu {
+        background: #333
+    }
+    /* this is behind the navigation but the navigation is not inside it so that the navigation is accessible and scrolls*/
+    #navbar-height-col {
+        position: fixed;
+        top: 0;
+        height: 100%;
       bottom:0;
-	    width: 80%;
-	    left: -80%;
-	    background: #f7f7f7;
-	}
-	#navbar-height-col.inverse {
-	    background: #333;
-	    z-index: 1;
-	    border: 0;
-	}
-	#slide-nav .navbar-form {
-	    width: 100%;
-	    margin: 8px 0;
-	    text-align: center;
-	    overflow: hidden;
-	    /*fast clearfixer*/
-	}
-	#slide-nav .navbar-form .form-control {
-	    text-align: center
-	}
-	#slide-nav .navbar-form .btn {
-	    width: 100%
-	}
+        width: 80%;
+        left: -80%;
+        background: #f7f7f7;
+    }
+    #navbar-height-col.inverse {
+        background: #333;
+        z-index: 1;
+        border: 0;
+    }
+    #slide-nav .navbar-form {
+        width: 100%;
+        margin: 8px 0;
+        text-align: center;
+        overflow: hidden;
+        /*fast clearfixer*/
+    }
+    #slide-nav .navbar-form .form-control {
+        text-align: center
+    }
+    #slide-nav .navbar-form .btn {
+        width: 100%
+    }
 }
 @media (min-width:768px) { 
-	#page-content {
-	    left: 0!important
-	}
-	.navbar.navbar-fixed-top.slide-active {
-	    position: fixed
-	}
-	.navbar-header {
-	    left: 0!important
-	}
+    #page-content {
+        left: 0!important
+    }
+    .navbar.navbar-fixed-top.slide-active {
+        position: fixed
+    }
+    .navbar-header {
+        left: 0!important
+    }
 }
 #slidemenu{
-	padding-top: 10px;
+    padding-top: 10px;
 }
 
 #landingScreen{
-	background-image: url("../images/landingBackground.png");
-	background-repeat: no-repeat;
-	height: 100%;
-	background-position: 50% 50%;
-	background-size: 100%;
+    background-image: url("../images/landingBackground.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: 50% 50%;
+    background-size: 100%;
 }
 
 #start{
-	text-align: center;
-	padding-top: 140%;
+    text-align: center;
+    padding-top: 140%;
 }
 
 #startButton{
-	font-size: 25px;
-	padding: 12px 60px;
-	border-radius: 32px;
+    font-size: 25px;
+    padding: 12px 60px;
+    border-radius: 32px;
 }
 
 /* End of mainmenu.html */
