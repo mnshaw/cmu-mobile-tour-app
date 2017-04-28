@@ -114,6 +114,10 @@ a:active {
 }
 
 
+#tourinfo-body {
+	background-color: white;
+}
+
 /* HAMBURGER BAR */
 
 /* adjust body when menu is open */
