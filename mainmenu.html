@@ -1,135 +1,81 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Home Page</title>
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/styles.css">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home Page</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
-        
+
     <body>
 
-        <div id="mySidenav" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <div class="welcomevisitor">
-            <a href="#"> <img class="user" src="images/user.png"> <strong>Welcome</strong> Visitor!</a>
-          </div>
-          <hr>
-          <a class="navoptions" href="#">Home</a>
-          <hr>
-          <a class="navoptions" href="#">Locations</a>
-          <hr>
-          <a class="navoptions" href="#">Academics</a>
-          <hr>
-          <a class="navoptions" href="#">Help</a>
-          <hr>
-          <a class="navoptions" href="#">FAQ</a>
-          <hr>
-        </div>
-        
-<!--        <span class="hamburgermenu" onclick="openNav()">&#9776; </span>-->
-        
-        <div id="general-tour" class="row">
-            <span class="hamburgermenu" onclick="openNav()">&#9776; </span>
-            <div id="general-tour-text">
-                <p>General Tour</p>
-                <hr>
-                <div class="btn-group" role="group" aria-label="...">
-                  <button type="button" class="btn btn-round left-btn"><a href="tourinfo.html">Learn More</a></button>
-
-<<<<<<< HEAD
-                  <button type="button" class="btn btn-round right-btn" >Start Tour</button>
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="slide-nav">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-toggle"> 
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </a>
+                    <a class="navbar-brand" href="#">Carnegie Mellon Tour</a>
+                </div>
+                <div id="slidemenu">
+                    <ul class="nav navbar-nav">
+                    <li id="welcome"><a href="">Welcome Visitor!</a></li>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="places.html">Places</a></li>
+                    <li><a href="images/campusmap.pdf" target="_blank">Campus Map</a></li>
+                    <li><a href="#settings">Settings</a></li>
+                    <li><a href="#FAQs">FAQs</a></li>
                 </div>
             </div>
-=======
-		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="slide-nav">
-			<div class="container">
-				<div class="navbar-header">
-					<a class="navbar-toggle"> 
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					</a>
-					<a class="navbar-brand" href="#">Carnegie Mellon Tour</a>
-				</div>
-				<div id="slidemenu">
-					<ul class="nav navbar-nav">
-					<li id="welcome"><a href="">Welcome Visitor!</a></li>
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="places.html">Places</a></li>
-					<li><a href="images/campusmap.pdf" target="_blank">Campus Map</a></li>
-					<li><a href="#settings">Settings</a></li>
-					<li><a href="#FAQs">FAQs</a></li>
-				</div>
-			</div>
-		</div>
+        </div>
 
 
-		<div id="general-tour" class="row">
-			<p>General Tour</p>
-			<hr>
-			<div class="btn-group" role="group" aria-label="...">
-			  <button type="button" class="btn btn-round left-btn"><a href="tourinfo.html">Learn More</a></button>
+        <div id="general-tour" class="row">
+            <p>General Tour</p>
+            <hr>
+            <div class="btn-group" role="group" aria-label="...">
+              <button type="button" class="btn btn-round left-btn"><a href="tourinfo.html">Learn More</a></button>
 
-			  <button type="button" class="btn btn-round right-btn" >Start Tour</button>
-			</div>
->>>>>>> c2de48fe75e0eee30da632a2a8dcdf55e36e0cb7
-		</div>
+              <button type="button" class="btn btn-round right-btn" >Start Tour</button>
+            </div>
+        </div>
 
-		<div id="additional-tours">
-			<p>Scroll down to view other specialized tour options on campus!</p>
-			<div id="additional-tours1" class="row">		
-				<div id="dining-tour" class="col-xs-6">
-					<img src="images/cutlery.png" class="icon" height="40px" width="40px">
-					<p>Dining<br>Tour</p>
-				</div>
+        <div id="additional-tours">
+            <p>Scroll down to view other specialized tour options on campus!</p>
+            <div id="additional-tours1" class="row">        
+                <div id="dining-tour" class="col-xs-6">
+                    <img src="images/cutlery.png" class="icon" height="40px" width="40px">
+                    <p>Dining<br>Tour</p>
+                </div>
 
-				<div id="housing-tour" class="col-xs-6">
-					<img src="images/house.png" class="icon" height="40px" width="40px">
-					<p>Housing Tour</p>
-				</div>
-			</div>
-			<div id="additional-tours2" class="row">		
-				<div id="athletics-tour" class="col-xs-6">
-					<img src="images/dumbbell.png" class="icon" height="40px" width="40px">
-					<p>Athletics Tour</p>
-				</div>
+                <div id="housing-tour" class="col-xs-6">
+                    <img src="images/house.png" class="icon" height="40px" width="40px">
+                    <p>Housing Tour</p>
+                </div>
+            </div>
+            <div id="additional-tours2" class="row">        
+                <div id="athletics-tour" class="col-xs-6">
+                    <img src="images/dumbbell.png" class="icon" height="40px" width="40px">
+                    <p>Athletics Tour</p>
+                </div>
 
-				<div id="landmarks-tour" class="col-xs-6">
-					<img src="images/bridge.png" class="icon" height="40px" width="40px">
-					<p>Landmarks Tour</p>
-				</div>
-			</div>
-		</div>
+                <div id="landmarks-tour" class="col-xs-6">
+                    <img src="images/bridge.png" class="icon" height="40px" width="40px">
+                    <p>Landmarks Tour</p>
+                </div>
+            </div>
+        </div>
 
 
-		<!-- jQuery (Bootstrap JS plugins depend on it) -->
-		<script src="js/jquery-1.11.3.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/script.js"></script>
-        
+        <!-- jQuery (Bootstrap JS plugins depend on it) -->
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+
     </body>
-
-        <script>
-            function openNav() {
-                document.getElementById("mySidenav").style.width = "300px";
-                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-            }
-
-            function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-                document.body.style.backgroundColor = "white";
-            }
-
-
-            //FIND FUNCTION TO MAKE DISAPPEAR 
-            
-        </script>
-    
-    
-    
-
