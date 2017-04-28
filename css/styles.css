@@ -35,21 +35,26 @@ a:hover {
 
 /* For mainmenu.html */
 #general-tour{
-	height: 60%;
 	background-image: url("../images/generalgradient.jpg");
 	background-size: auto 100%;
 	background-repeat: no-repeat;
 	background-position: center;
+	height: 60%;
 	color:white;
 	font-size: 36px;
-	padding-top: 60%;
 	padding-left: 2.5%;
+/*	margin-bottom: 5%;*/
+}
+
+#general-tour-text{
+	padding-top: 50%;
 	margin-bottom: 5%;
 }
-#general-tour>p, .btn-group {
-	padding-left: 5%
+#general-tour-text>p, .btn-group {
+	padding-left: 5%;
+/*    margin-bottom: 5%;*/
 }
-#general-tour>p{
+#general-tour-text>p{
 	margin-bottom: -15px;
 	font-weight: 400;
 }
@@ -354,3 +359,75 @@ body.slide-active {
 }
 
 /* End of mainmenu.html */
+
+        body {
+            font-family: "Open Sans", sans-serif;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #FFFFFF;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 16px;
+            color: #000;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover, .offcanvas a:focus{
+            color: #f1f1f1;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        hr{
+             margin: 15px;
+        }
+
+        .navoptions{
+            margin-left: 15px;
+        }
+
+        span.hamburgermenu{
+            margin-top: 0px;
+            padding-top: 0%;
+            margin-left: 20px;
+            font-size: 50px;
+            cursor: pointer;
+        }
+
+        .welcomevisitor{
+            background-color: #E6E7E7;
+            opacity: 60%;
+            height: 100px;
+            padding-top: 0px;
+            padding-bottom: 20px;
+        }
+
+        .user{
+            padding-top: 20px;
+            padding-right: 25px;
+        }
+
+        @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 12px;}
+        }
