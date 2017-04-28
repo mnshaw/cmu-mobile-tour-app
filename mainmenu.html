@@ -8,10 +8,43 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/styles.css">
-	</head>
+    </head>
+        
+    <body>
 
-	<body>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="welcomevisitor">
+            <a href="#"> <img class="user" src="images/user.png"> <strong>Welcome</strong> Visitor!</a>
+          </div>
+          <hr>
+          <a class="navoptions" href="#">Home</a>
+          <hr>
+          <a class="navoptions" href="#">Locations</a>
+          <hr>
+          <a class="navoptions" href="#">Academics</a>
+          <hr>
+          <a class="navoptions" href="#">Help</a>
+          <hr>
+          <a class="navoptions" href="#">FAQ</a>
+          <hr>
+        </div>
+        
+<!--        <span class="hamburgermenu" onclick="openNav()">&#9776; </span>-->
+        
+        <div id="general-tour" class="row">
+            <span class="hamburgermenu" onclick="openNav()">&#9776; </span>
+            <div id="general-tour-text">
+                <p>General Tour</p>
+                <hr>
+                <div class="btn-group" role="group" aria-label="...">
+                  <button type="button" class="btn btn-round left-btn"><a href="tourinfo.html">Learn More</a></button>
 
+<<<<<<< HEAD
+                  <button type="button" class="btn btn-round right-btn" >Start Tour</button>
+                </div>
+            </div>
+=======
 		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="slide-nav">
 			<div class="container">
 				<div class="navbar-header">
@@ -44,6 +77,7 @@
 
 			  <button type="button" class="btn btn-round right-btn" >Start Tour</button>
 			</div>
+>>>>>>> c2de48fe75e0eee30da632a2a8dcdf55e36e0cb7
 		</div>
 
 		<div id="additional-tours">
@@ -77,5 +111,25 @@
 		<script src="js/jquery-1.11.3.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/script.js"></script>
+        
+    </body>
 
-	</body>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "300px";
+                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.body.style.backgroundColor = "white";
+            }
+
+
+            //FIND FUNCTION TO MAKE DISAPPEAR 
+            
+        </script>
+    
+    
+    
+
