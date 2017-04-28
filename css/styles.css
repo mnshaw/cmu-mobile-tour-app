@@ -16,7 +16,7 @@ ul.pagination {
 }
 
 body {
-	background-color: #a6a6a6;
+	background-color: #DFDFDF;
 }
 html, body {margin:0;padding:0;height:100%;}
 
@@ -119,24 +119,45 @@ a:hover {
 
 
 #tourinfo-body {
-	background-color: #a6a6a6;
+	background-color: #DFDFDF;
 }
 
 #tourinfo {
+	margin: auto;
+	border-radius: 30px;
+	width: 92%;
 	padding-top: 3%;
 	padding-bottom: 3%;
 	background-color: white;
 }
 #inner-tourinfo {
 	margin-left: 5%;
+	font-weight: 400;
+	padding-bottom: 3%;
 }
-#tourinfo a {
-	color: blue;
+.tourinfotext{
+	font-size: 110%;
 }
-
+#inner-tourinfo a{
+	color:#007AFF;
+}
+#inner-tourinfo hr {
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-left: -10%;
+}
+.graytext {
+	color: #949494;
+}
+#mapPreview{
+	width: 109%;
+	margin-left: -10%;
+	margin-bottom: 1%;
+}
 #tourinfo p {
 	font-weight: 600;
-	font-size: 120%;
+	font-size: 170%;
+	margin-bottom: 0%;
 }
 .tourinfo-icon {
 	margin-left: -1%;
@@ -151,11 +172,31 @@ a:hover {
 	font-size: 130%;
 }
 #back a {
-	color: blue;
+	color: black;
 	font-weight: 600;
 }
 
+/* hunt.html */
+#huntmap {
+	height:400px;
+	background-color: yellow;
+}
+.placeinfo {
+	background-color: white;
 
+}
+.infoheader {
+	margin-top: 2%;
+	margin-left: 2%;
+	font-size: 200%;
+	font-weight: 600;
+}
+.next-btn {
+	float: right;
+	margin-right: 5%;
+}
+
+/* For places.html*/
 #myInput {
     background-image: url('/css/searchicon.png'); /* Add a search icon to input */
     background-position: 10px 12px; /* Position the search icon */
