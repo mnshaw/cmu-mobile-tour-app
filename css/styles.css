@@ -16,7 +16,7 @@ ul.pagination {
 }
 
 body {
-	background-color: #DFDFDF;
+    background-color: #a6a6a6;
 }
 html, body {margin:0;padding:0;height:100%;}
 
@@ -42,17 +42,24 @@ a:hover {
     background-position: center;
     color:white;
     font-size: 36px;
-    padding-top: 60%;
+    /*margin-bottom: 5%;*/
+}
+
+#general-tour-text{
+    padding-top: 40%;
     padding-left: 2.5%;
+    /*padding-left: 2.5%;*/
     margin-bottom: 5%;
 }
-#general-tour>p, .btn-group {
+
+#general-tour-text>p, .btn-group {
     padding-left: 5%
 }
-#general-tour>p{
+#general-tour-text>p{
     margin-bottom: -15px;
     font-weight: 400;
 }
+
 .btn {
     font-size: 18px;
     font-weight: 300;
@@ -119,46 +126,24 @@ a:hover {
 
 
 #tourinfo-body {
-	background-color: #DFDFDF;
+    background-color: #a6a6a6;
 }
 
 #tourinfo {
-	margin: auto;
-	border-radius: 30px;
-	width: 92%;
-	padding-top: 3%;
-	padding-bottom: 3%;
-	background-color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: white;
 }
 #inner-tourinfo {
-	margin-left: 5%;
-	font-weight: 400;
-	padding-bottom: 3%;
+    margin-left: 5%;
 }
-.tourinfotext{
-	font-size: 110%;
+#tourinfo a {
+    color: blue;
 }
-#inner-tourinfo a{
-	color:#007AFF;
-}
-#inner-tourinfo hr {
-	margin-top: 3%;
-	margin-bottom: 3%;
-	margin-left: -10%;
-}
-.graytext {
-	color: #949494;
-}
-#mapPreview{
-	width: 109%;
-	margin-left: -10%;
-	margin-bottom: 1%;
-}
-#tourinfo p {
-	font-weight: 600;
-	font-size: 170%;
-	margin-bottom: 0%;
 
+#tourinfo p {
+    font-weight: 600;
+    font-size: 120%;
 }
 .tourinfo-icon {
     margin-left: -1%;
@@ -173,32 +158,11 @@ a:hover {
     font-size: 130%;
 }
 #back a {
-	color: black;
-	font-weight: 600;
-
+    color: blue;
+    font-weight: 600;
 }
 
-/* hunt.html */
-#huntmap {
-	height:400px;
-	background-color: yellow;
-}
-.placeinfo {
-	background-color: white;
 
-}
-.infoheader {
-	margin-top: 2%;
-	margin-left: 2%;
-	font-size: 200%;
-	font-weight: 600;
-}
-.next-btn {
-	float: right;
-	margin-right: 5%;
-}
-
-/* For places.html*/
 #myInput {
     background-image: url('/css/searchicon.png'); /* Add a search icon to input */
     background-position: 10px 12px; /* Position the search icon */
@@ -397,3 +361,70 @@ body.slide-active {
 }
 
 /* End of mainmenu.html */
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: rgb(57, 136, 202);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+    
+.navoptions{
+    margin-left: 15px;
+}
+    
+.hamburgermenu{
+    margin-left: 30px;
+    font-size: 50px;
+    cursor: pointer;
+}
+    
+.welcomevisitor{
+    background-color: #E6E7E7;
+    opacity: 60%;
+    height: 100px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.user{
+    padding-top: 20px;
+    padding-right: 25px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
