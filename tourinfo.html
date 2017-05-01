@@ -11,27 +11,45 @@
 	</head>
 
 	<body id="tourinfo-body">
-		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="slide-nav">
-			<div class="container">
-				<div class="navbar-header">
-					<a class="navbar-toggle"> 
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					</a>
-					<a class="navbar-brand" href="#">Carnegie Mellon Tour</a>
-				</div>
-				<div id="slidemenu">
-					<ul class="nav navbar-nav">
-					<li id="welcome"><a href="">Welcome Visitor!</a></li>
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#places">Places</a></li>
-					<li><a href="#settings">Settings</a></li>
-					<li><a href="#FAQs">FAQs</a></li>
-				</div>
-			</div>
-		</div>
+	    <script>
+	        function openNav() {
+	            document.getElementById("mySidenav").style.width = "300px";
+	            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+	        }
+
+	        function closeNav() {
+	            document.getElementById("mySidenav").style.width = "0";
+	            document.body.style.backgroundColor = "white";
+	        }
+        </script>
+
+	    <div id="mySidenav" class="sidenav">
+	      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	      <div class="welcomevisitor">
+	        <a href="#"> <img class="user" src="images/user.png"> <strong>Welcome</strong> Visitor!</a>
+	      </div>
+	      <hr>
+	      <a class="navoptions" href="mainmenu.html">Home</a>
+	      <hr>
+	      <a class="navoptions" href="places.html">Places</a>
+	      <hr>
+	      <a class="navoptions" href="images/map.pdf" target="_blank">Campus Map</a>
+	      <hr>
+	      <a class="navoptions" href="#">Settings</a>
+	      <hr>
+	      <a class="navoptions" href="#">FAQ</a>
+	      <hr>
+	    </div>
+
+        <div id="nav-bar" class="row">
+            <span class="blackHamburgermenu" onclick="openNav()">
+              <div class="blackHamburgerLine black"></div>
+              <div class="blackHamburgerLine black"></div>
+              <div class="blackHamburgerLine black"></div>
+            </span>
+        </div>
+
+
 		<div id="spaceholder"></div>
 		<div id="back">
 			<a href="mainmenu.html"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span> Main Menu</a>

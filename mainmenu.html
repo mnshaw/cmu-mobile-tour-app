@@ -22,12 +22,10 @@
             document.getElementById("mySidenav").style.width = "0";
             document.body.style.backgroundColor = "white";
         }
-            
-
-        //FIND FUNCTION TO MAKE DISAPPEAR 
-
         
         </script>
+
+
             <div id="mySidenav" class="sidenav">
               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
               <div class="welcomevisitor">
@@ -47,7 +45,11 @@
             </div>
 
         <div id="general-tour" class="row">
-            <span class="hamburgermenu" onclick="openNav()">&#9776; </span>
+            <span class="hamburgermenu" onclick="openNav()">
+              <div class="hamburgerLine"></div>
+              <div class="hamburgerLine"></div>
+              <div class="hamburgerLine"></div>
+            </span>
 
             <div id="general-tour-text">
                 <p>General Tour</p>
