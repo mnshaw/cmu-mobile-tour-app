@@ -133,9 +133,17 @@ a:hover {
     padding-top: 3%;
     padding-bottom: 3%;
     background-color: white;
+    border-radius: 30px;
+    width:95%;
+    margin-left: 2.5%;
 }
 #inner-tourinfo {
     margin-left: 5%;
+}
+
+#inner-tourinfo hr {
+	width: 95%;
+	margin-left: -3%;
 }
 #tourinfo a {
     color: blue;
@@ -143,7 +151,12 @@ a:hover {
 
 #tourinfo p {
     font-weight: 600;
-    font-size: 120%;
+    font-size: 150%;
+}
+
+#mapPreview {
+	width:109%;
+	margin-left: -10%;
 }
 .tourinfo-icon {
     margin-left: -1%;
@@ -154,6 +167,7 @@ a:hover {
     margin-top: 18%;
 }
 #back {
+	margin-top: 4%;
     margin-left: 2%;
     font-size: 130%;
 }
