@@ -16,7 +16,7 @@ ul.pagination {
 }
 
 body {
-    background-color: #a6a6a6;
+    background-color: #fff;
 }
 html, body {margin:0;padding:0;height:100%;}
 
@@ -506,3 +506,72 @@ body {
 .blackHamburgerLine:last-child{
     margin-bottom: 13px;
 }
+
+#huntmap{
+    height:580px;
+    background-color: yellow;
+}
+
+.placeinfo{
+    /*height:750px;*/
+    background-color: white;
+    padding: 25px;
+}
+
+#next{
+    padding-left: 23px;
+    padding-right: 23px;
+    margin-left: 25px;
+}
+
+#next-btn{
+    margin-right: 20px;
+}
+
+.huntImage{
+    padding: 0px;
+}
+
+#huntImage{
+    width:100%;
+}
+
+.hashtag{
+    text-align: center;
+    /*display:inline;*/
+}
+
+.hashtag:last-child{
+    margin-top:0px;
+}
+
+
+.thumbnail.img{
+    width:100%;
+    /*padding: 0px;*/
+}
+
+.thumbnail{
+    margin:0px;
+    padding:2px;
+    border: 0px;
+    /*margin-bottom:2px;*/
+    /*margin-left:2px;*/
+    /*margin-right:2px;*/
+}
+
+.divider{
+    height: 30px;
+    background-color: #E8E7E7;
+
+}
+
+div.testt{
+    height:166px;
+}
+
+img.valign{
+    margin-top: 50%;
+    margin-left: 7.5%;
+}
+
