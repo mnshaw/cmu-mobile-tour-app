@@ -496,11 +496,11 @@ body {
 }
 
 .hamburgerLine:first-child{
-    margin-top: 16px;
+    margin-top: 26px;
 }
 
 .blackHamburgerLine:first-child{
-    margin-top: 13px;
+    margin-top: 26px;
 }
 
 .blackHamburgerLine:last-child{
@@ -508,7 +508,7 @@ body {
 }
 
 #huntmap{
-    height:580px;
+    height:520px;
     background-color: yellow;
 }
 
@@ -566,12 +566,12 @@ body {
 
 }
 
-div.testt{
-    height:166px;
-}
-
 img.valign{
     margin-top: 50%;
     margin-left: 7.5%;
+}
+
+.tourinfo-icon{
+    color:black;
 }
 
