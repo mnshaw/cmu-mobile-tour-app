@@ -512,10 +512,21 @@ body {
     background-color: yellow;
 }
 
+#overviewMap{
+    height:325px;
+    background-color: green;
+}
+
 .placeinfo{
     /*height:750px;*/
     background-color: white;
     padding: 25px;
+}
+
+.overviewInfo{
+    /*height:750px;*/
+    background-color: white;
+    padding: 10px 25px 10px 30px;
 }
 
 #next{
@@ -575,3 +586,14 @@ img.valign{
     color:black;
 }
 
+.centeredButton{
+    text-align:center;
+}
+
+.cancel-btn{
+    padding: 10px 42px;
+}
+
+.start-btn{
+    padding: 10px 50px;
+}
