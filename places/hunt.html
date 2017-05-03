@@ -12,18 +12,6 @@
 
 
 	<body>
-	    <script>
-	    function openNav() {
-	        document.getElementById("mySidenav").style.width = "300px";
-	        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-	    }
-
-	    function closeNav() {
-	        document.getElementById("mySidenav").style.width = "0";
-	        document.body.style.backgroundColor = "white";
-	    }
-	    
-    </script>
 
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -52,7 +40,12 @@
 
 		<div class="container-fluid mapSection">
 			<div class="row" id="huntmap">
-				This is where the map will be.
+			<iframe 
+		      width="375"
+			  height="520"
+			  frameborder="0" style="border:0"
+			  src="https://www.google.com/maps/d/u/2/embed?mid=14N9-9uoVp9aUOl69u3ATc7LHG5k&z=17">
+			</iframe>
 			</div>
 		</div>	
 		<div class="infoSection">
@@ -63,16 +56,16 @@
 						<!-- <p> Read More </p> -->
 					</div>
 					<div class="col-xs-4" id="next-btn">
-						<button type="button" id="next" class="btn btn-danger">Next</button>
+						<a href="#readMore"><button onclick=type="button" id="next" class="btn btn-primary">Read</button></a>
 					</div>
 				</div>
 			</div>
-			<div class="huntImage">
+			<div class="huntImage" id="readMore">
 				<img src="../images/huntLibrary.jpg" id="huntImage">
 			</div>
 
 			<!-- <hr id="paddedLine">  -->
-			<div class="container-fluid">
+			<div class="container-fluid"">
 				<div class="row">
 					<div class="col-xs-12">
 						<h2> <strong> Hunt Library </strong></h2>
@@ -170,7 +163,55 @@
 			<div class="divider"></div>
 		</div>
 	<script src="../js/jquery-1.11.3.min.js"></script>
+<script>
+	    function openNav() {
+	        document.getElementById("mySidenav").style.width = "300px";
+	        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+	    }
 
+	    function closeNav() {
+	        document.getElementById("mySidenav").style.width = "0";
+	        document.body.style.backgroundColor = "white";
+	    }
+
+	    // Select all links with hashes
+		$('a[href*="#"]')
+		  // Remove links that don't actually link to anything
+		  .not('[href="#"]')
+		  .not('[href="#0"]')
+		  .click(function(event) {
+		    // On-page links
+		    if (
+		      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+		      && 
+		      location.hostname == this.hostname
+		    ) {
+		      // Figure out element to scroll to
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+		      // Does a scroll target exist?
+		      if (target.length) {
+		        // Only prevent default if animation is actually gonna happen
+		        event.preventDefault();
+		        $('html, body').animate({
+		          scrollTop: target.offset().top
+		        }, 1000, function() {
+		          // Callback after animation
+		          // Must change focus!
+		          var $target = $(target);
+		          $target.focus();
+		          if ($target.is(":focus")) { // Checking if the target was focused
+		            return false;
+		          } else {
+		            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+		            $target.focus(); // Set focus again
+		          };
+		        });
+		      }
+		    }
+		  });
+		  
+    </script>
 	</body>
 
 </html>
