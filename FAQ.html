@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Frequently Asked Questions</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+
+
+    
+	<body>
+
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="welcomevisitor">
+            <a href="#"> <img class="user" src="images/user.png"> <strong>Welcome</strong> Visitor!</a>
+          </div>
+          <hr>
+          <a class="navoptions" href="mainmenu.html">Home</a>
+          <hr>
+          <a class="navoptions" href="places.html">Places</a>
+          <hr>
+          <a class="navoptions" href="images/map.pdf" target="_blank">Campus Map</a>
+          <hr>
+          <a class="navoptions" href="#">FAQ</a>
+          <hr>
+        </div>
+
+        <div id="nav-bar" class="row">
+            <span class="blackHamburgermenu" onclick="openNav()">
+              <div class="blackHamburgerLine black"></div>
+              <div class="blackHamburgerLine black"></div>
+              <div class="blackHamburgerLine black"></div>
+            </span>
+        </div>
+        
+        <div id=faq-header class="row">
+            <div class="col-sm-6">
+                <p> <strong> Frequently Asked Questions </strong> </p>
+            </div>
+        </div>
+        
+        <div id="faq-img" class="container">
+        </div>
+        
+        <div id=faq-question class="row">
+            <div class="col-sm-6">
+                <p> <strong> What will I see on a campus tour? </strong> </p>
+            </div>
+        </div>
+        
+        <div id="faq-answer" class="row">
+            <div class="col-sm-6">
+                <p id="p-faq-answer"> We invite you to join a student-led, hour-long general campus tour. You’ll have the opportunity to see some academic buildings, hear about our colleges and programs as well as what it’s like to be a Carnegie Mellon student. (The campus tour does not include a residence hall visit but we do offer a stand-alone residence hall visit most weekdays.)
+                </p>
+            </div>
+        </div>
+        
+        <div id=faq-question class="row">
+            <div class="col-sm-6">
+                <p> <strong> How do I set up a visit or tour of the colleges or departments? </strong> </p>
+            </div>
+        </div>
+        
+        <div id="faq-answer" class="row">
+            <div class="col-sm-6">
+                <p id="p-faq-answer"> In addition to the general campus tour, various individual schools and departments within Carnegie Mellon offer opportunities for prospective students and families to tour facilities, attend an information session or meet with a faculty member.
+                </p>
+            </div>
+        </div>
+        
+        <div id=faq-question class="row">
+            <div class="col-sm-6">
+                <p> <strong> Is there a bus that runs from the Pittsburgh airport to campus? </strong> </p>
+            </div>
+        </div>
+        
+        <div id="faq-answer" class="row">
+            <div class="col-sm-6">
+                <p id="p-faq-answer"> 
+                    <strong id="p-faq-answer-header"> Traveling by Bus</strong>
+                    <br><br>
+                    The Greyhound Trailways Bus Terminal is located five miles from campus in downtown Pittsburgh. For a detailed transportation schedule, please call 1-800-231-2222. The station terminal is located at the intersection of 11th Street and Liberty Avenue and can be reached by telephone at 412-392-6526.
+                </p>
+            </div>
+        </div>
+        
+        <div id=faq-question class="row">
+            <div class="col-sm-6">
+                <p> <strong> Can I interview with admission during a Turn Tartan Overnight? </strong> </p>
+            </div>
+        </div>
+        
+        <div id="faq-answer" class="row">
+            <div class="col-sm-6">
+                <p id="p-faq-answer"> Experience life as a Tartan both on-campus and in the city of Pittsburgh when you attend one of our weekend overnight events. Turn Tartan Overnights begin on Sunday morning and last through Monday afternoon. During a Turn Tartan Overnight, you’ll have the chance to:
+                <br><br>
+                -Meet current students and faculty members<br>
+                -Attend classes<br>
+                -Tour campus<br>
+                -Eat in the dining facilities
+                </p>
+            </div>
+        </div>
+        
+        <div id=faq-question class="row">
+            <div class="col-sm-6">
+                <p> <strong> What is Carnegie Mellon's address?  </strong> </p>
+            </div>
+        </div>
+        
+        <div id="faq-answer" class="row">
+            <div class="col-sm-6">
+                <p id="p-faq-answer"> 
+                    Carnegie Mellon University <br>
+                    Warner Hall <br>
+                    5000 Forbes Avenue <br>
+                    Pittsburgh, PA 15213-3890 <br>
+                </p>
+            </div>
+        </div>
+
+	</body>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+        function myFunction() {
+                // Declare variables
+                var input, filter, ul, li, a, i;
+                input = document.getElementById('myInput');
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("myUL");
+                li = ul.getElementsByTagName('li');
+
+                // Loop through all list items, and hide those who don't match the search query
+                for (i = 0; i < li.length; i++) {
+                        a = li[i].getElementsByTagName("a")[0];
+                        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                                li[i].style.display = "";
+                        } else {
+                                li[i].style.display = "none";
+                        }
+                }
+        }
+    
+        function openNav() {
+	        document.getElementById("mySidenav").style.width = "300px";
+	        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+	    }
+
+	    function closeNav() {
+	        document.getElementById("mySidenav").style.width = "0";
+	        document.body.style.backgroundColor = "white";
+	    }
+	    
+</script>

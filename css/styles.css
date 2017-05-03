@@ -597,3 +597,45 @@ img.valign{
 .start-btn{
     padding: 10px 50px;
 }
+
+
+#faq-img{
+/*    margin-top: 10px;*/
+    width:105%;
+    height: 39%;
+    background-image: url("../images/faq.jpg");
+    background-size: auto 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#faq-header{
+    font-size: 18px;
+    margin-top: 5px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+#faq-question{
+    font-size: 16px;
+    padding: 20px 20px 10px 20px;
+    text-align: center;
+    background-color: #e2e2e2;
+}
+
+#faq-answer{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#p-faq-answer{
+    padding-left: 15px;
+}
+
+#p-faq-answer-header{
+    font-size: 15px;
+}
+
